@@ -5,7 +5,11 @@
 }
 
 body {
-    background-color: black;
+      background: linear-gradient(
+        to right,
+        rgb(54, 53, 53) 0% 45%,
+        black 45% 100%
+    );
 }
 .hero-header {
     padding: 65px 0px 198px 165px;
