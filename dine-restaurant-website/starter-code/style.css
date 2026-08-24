@@ -8,21 +8,6 @@ body {
     background-color: black;
     left: 60px;
 }
-
-.background-img {
-    position: absolute;
-    left: 144px;
-    top: -80px;
-    width: 400px;
-}
-
-.hero {
-    display: flex;
-    position: absolute;
-    left: 80px;
-    top: 0px;
-}
-
 .hero-header {
     padding: 65px 0px 198px 165px;
     font-family: "League Spartan", sans-serif;
@@ -30,7 +15,19 @@ body {
     flex-direction: column;
     gap: 153px;
 }
-
+.hero {
+    background-image:
+     linear-gradient(
+      to right,
+      black 0%,
+      black 38%,
+      rgba(50, 50, 50, 0.2) 38%,
+      rgba(50, 50, 50, 0.2) 100%
+    ),  
+    url("./images/homepage/hero-bg-desktop.jpg");
+    background-size: cover;
+ 
+}
 .hero-content {
     color: white;
 
