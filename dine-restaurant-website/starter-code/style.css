@@ -7,27 +7,28 @@
 body {
     background-color: black;
     left: 60px;
+    font-family: "League Spartan", sans-serif;
 }
+
 .hero-header {
     padding: 65px 0px 198px 165px;
-    font-family: "League Spartan", sans-serif;
+
     display: flex;
     flex-direction: column;
     gap: 153px;
 }
+
 .hero {
     background-image:
-     linear-gradient(
-      to right,
-      black 0%,
-      black 38%,
-      rgba(50, 50, 50, 0.2) 38%,
-      rgba(50, 50, 50, 0.2) 100%
-    ),  
-    url("./images/homepage/hero-bg-desktop.jpg");
+        linear-gradient(to right,
+            black 0%,
+            black 38%,
+            rgba(50, 50, 50, 0.2) 38%,
+            rgba(50, 50, 50, 0.2) 100%),
+        url("./images/homepage/hero-bg-desktop.jpg");
     background-size: cover;
- 
 }
+
 .hero-content {
     color: white;
 
@@ -49,9 +50,70 @@ body {
 
     .btn {
         text-decoration: none;
-        color: white;
+        color: rgb(233, 228, 228);
         border: 1px solid white;
         padding: 24px 56px;
         letter-spacing: 2.5px;
     }
+}
+
+.btn:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.highlights {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.highlights-items {
+    display: flex;
+    gap: 125px;
+    padding-top: 200px;
+    padding-left: 165px;
+    padding-right: 165px;
+    background-image: url(./images/patterns/pattern-curve-top-right.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 320px;
+}
+
+.highlight-image {
+    margin-top: -256px;
+
+}
+
+.highlight-content {
+    h2 {
+        font-size: 48px;
+        font-weight: 700px;
+        line-height: 1;
+        width: 445px;
+        margin-top: 48px;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 400px;
+        line-height: 1.5;
+        width: 445px;
+        margin-top: 24px;
+    }
+}
+
+.highlights-items-reversed {
+    background-image: url(./images/patterns/pattern-curve-top-left.svg);
+    background-repeat: no-repeat;
+    background-position: 570px 320px;
+}
+
+.item-two {
+    display: flex;
+}
+
+.divide-lines {
+    margin-top: 320px;
+    margin-left: -30px;
 }
