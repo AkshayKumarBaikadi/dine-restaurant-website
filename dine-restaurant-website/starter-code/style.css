@@ -12,7 +12,6 @@ body {
 
 .hero-header {
     padding: 65px 0px 198px 165px;
-
     display: flex;
     flex-direction: column;
     gap: 153px;
@@ -82,7 +81,6 @@ body {
 
 .highlight-image {
     margin-top: -256px;
-
 }
 
 .highlight-content {
@@ -203,13 +201,11 @@ body {
     display: flex;
     flex-direction: column;
     gap: 24px;
-
 }
 
 .card-1 {
     display: flex;
 }
-
 
 .card-items {
     display: flex;
@@ -245,30 +241,28 @@ body {
 }
 
 .left-side-fam-content {
-    .threelines-image {
-        width: 200px;
-        height: 40px;
+    .lines-three {
+        width: 100px;
+        height: 60px;
+        display: flex;
         margin-left: 160px;
-        margin-top: 150px;
+        margin-top: 190px;
     }
 }
 
 .family-gathering-section {
     background-color: white;
-    
-
 }
 
 .familiy-gathering-img {
     display: flex;
-
 }
 
 .family-gathering-container {
     display: flex;
-     background-image: url(./images/patterns/pattern-curve-top-right.svg);
+    background-image: url(./images/patterns/pattern-curve-top-right.svg);
     background-repeat: no-repeat;
-    background-position: -297px 0px;
+    background-position: -287px 0px;
 }
 
 .right-side-fam-content {
@@ -291,7 +285,6 @@ body {
         font-weight: 700;
         font-size: 48px;
         line-height: 100%;
-
     }
 
     p {
@@ -324,4 +317,68 @@ body {
         flex-direction: column;
         gap: 24px;
     }
+}
+
+.ftr-top {
+    display: flex;
+    background-image: url(./images/homepage/ready-bg-desktop.jpg);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 240px;
+    align-items: center;
+
+}
+
+.ftr-top-content {
+    display: flex;
+    padding: 88px 165px 88px 165px;
+    gap: 120px;
+
+
+    h1 {
+        width: 615px;
+        height: 48px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 100%;
+        letter-spacing: -0.5px;
+        color: #FFFFFF;
+
+    }
+    .btn {
+        text-decoration: none;
+        color: rgb(28, 25, 25);
+        border: 1px solid black;
+        padding: 24px 56px;
+        letter-spacing: 2.5px;
+        width: fit-content;
+        margin-left: 95px;
+    }
+}
+.ftr-bottom {
+    display: flex;
+    width: 1440px;
+height: 240px;
+justify-content: space-between;git 
+align-items: center;
+padding: 165px 78px 165px 78px;
+
+.para-1 {
+width: 244px;
+height: 84px;
+font-weight: 400;
+font-size: 14px;
+line-height: 200%;
+letter-spacing: 2px;
+color: #FFFFFF;
+}
+.para-2 {
+    width: 260px;
+height: 84px;
+font-weight: 400;
+font-size: 14px;
+line-height: 200%;
+letter-spacing: 2px;
+color: #FFFFFF;
+}
 }
